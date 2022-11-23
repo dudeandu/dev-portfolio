@@ -221,6 +221,46 @@ template {
   overflow: hidden;
 }
 
+.skip-link {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: white;
+  color: black;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 h1 {
-  color: #f08080;
+  color: #283618;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+h1 span {
+  display: block;
 }

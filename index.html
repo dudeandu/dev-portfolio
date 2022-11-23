@@ -4,11 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="styles/styles.css">
     <title>Andres Plana</title>
 </head>
 <body>
 
-  <h1>Andres Plana</h1>
+    <header>
+        <h2>Andres Plana <span>Front End Developer</span></h2>
+        <nav>
+            <ul class="navList">
+                <li class="navitem"><a href="#">Home</a></li>
+                <li class="navitem"><a href="#">About</a></li>
+                <li class="navitem"><a href="#">Projects</a></li>
+                <li class="navitem"><a href="#">Contact</a></li>
+                <li class="navitem">
+                    <!-- social buttons -->
+                    <ul class="social">
+                        <li class="socialLink"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li class="socialLink"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="socialLink"><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                        <li class="socialLink"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+ 
+ 
+    <main>
+        <!-- skip link -->
+        <a href="#mainContent" class="skip-link">Skip to main content.</a>
+
+        <section class="intro">
+
+            <h1>Andres Plana <span>Front End Developer</span></h1>
+            <button>Get in touch</button>
+
+        </section>
+        <!-- end of intro -->
+        
+        <!-- start of about -->
+        <section class="about">
+            
+            <h2>Hello!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia assumenda repellendus rem beatae consequatur facere, in sequi nihil necessitatibus cupiditate esse animi corrupti aperiam ratione voluptates voluptatum laboriosam illo exercitationem, explicabo eaque. Reiciendis natus ab maiores, alias, necessitatibus incidunt aliquid tenetur, consequuntur eligendi debitis adipisci!</p>
+            
+        </section>
+        <!-- end of about -->
+
+
+        <section class="projects">
+            <div class="projectContainer">
+                <img src="https://www.fillmurray.com/600/600" alt="TKTKTKTK">
+                <div class="textContainer">
+                    <h3 class="projectTitle">Awesome project</h3>
+                    <p class="projectDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsa! Illum tenetur et nesciunt possimus nisi, veritatis odit iusto necessitatibus!</p>
+                    <div class="buttonContainer">
+                        <a href="#">Live site</a>
+                        <a href="#">See the code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact">
+
+        </section>
+
+    </main>
 </body>
 </html>

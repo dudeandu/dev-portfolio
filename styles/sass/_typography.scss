@@ -1,5 +1,11 @@
 @use './variables';
 
 h1 {
-  color: variables.$mainColor;
+  color: variables.$darkColor;
+  font-family: variables.$headerFont;
+  font-weight: 200;
+  text-transform: uppercase;
+  span {
+    display: block;
+  }
 }
