@@ -264,3 +264,24 @@ h1 {
 h1 span {
   display: block;
 }
+
+header {
+  height: 100vh;
+  position: relative;
+  padding: 20% 30px;
+  width: 350px;
+}
+header .textContainer {
+  position: fixed;
+  text-align: right;
+  width: 350px;
+}
+header .textContainer span {
+  display: block;
+}
+
+main {
+  max-width: calc(100% - 350px);
+  margin-left: 450px;
+  margin-top: -85vh;
+}

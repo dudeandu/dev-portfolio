@@ -1,0 +1,18 @@
+@use './variables';
+@use './typography';
+
+header {
+  height: 100vh;
+  position: relative;
+  padding: 20% 30px;
+  width: variables.$pusher;
+  .textContainer {
+    position: fixed;
+    text-align: right;
+    width: variables.$pusher;
+    // top: 35%;
+    span {
+      display: block;
+    }
+  }
+}

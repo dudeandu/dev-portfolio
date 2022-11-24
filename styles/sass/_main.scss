@@ -1,0 +1,8 @@
+@use './variables';
+@use './typography';
+
+main {
+  max-width: calc( 100% - variables.$pusher );
+  margin-left: variables.$pusher + 100px;
+  margin-top: -85vh;
+}

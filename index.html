@@ -15,70 +15,92 @@
     <title>Andres Plana</title>
 </head>
 <body>
-
-    <header>
-        <h2>Andres Plana <span>Front End Developer</span></h2>
-        <nav>
-            <ul class="navList">
-                <li class="navitem"><a href="#">Home</a></li>
-                <li class="navitem"><a href="#">About</a></li>
-                <li class="navitem"><a href="#">Projects</a></li>
-                <li class="navitem"><a href="#">Contact</a></li>
-                <li class="navitem">
-                    <!-- social buttons -->
-                    <ul class="social">
-                        <li class="socialLink"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                        <li class="socialLink"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li class="socialLink"><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                        <li class="socialLink"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    <div class="wrapper">
+        <header>
+            <div class="textContainer">
+                <h2>Andres Plana <span>Front End Developer</span></h2>
+                <nav>
+                    <ul class="navList">
+                        <li class="navitem"><a href="#">Home</a></li>
+                        <li class="navitem"><a href="#">About</a></li>
+                        <li class="navitem"><a href="#">Projects</a></li>
+                        <li class="navitem"><a href="#">Contact</a></li>
+                        <li class="navitem">
+                            <!-- social buttons -->
+                            <ul class="social">
+                                <li class="socialLink"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li class="socialLink"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class="socialLink"><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                                <li class="socialLink"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-            </ul>
-        </nav>
-    </header>
- 
- 
-    <main>
-        <!-- skip link -->
-        <a href="#mainContent" class="skip-link">Skip to main content.</a>
-
-        <section class="intro">
-
-            <h1>Andres Plana <span>Front End Developer</span></h1>
-            <button>Get in touch</button>
-
-        </section>
-        <!-- end of intro -->
+                </nav>
+                
+            </div>
+        </header>
         
-        <!-- start of about -->
-        <section class="about">
+        
+        <main>
+            <!-- skip link -->
+            <a href="#mainContent" class="skip-link">Skip to main content.</a>
             
-            <h2>Hello!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia assumenda repellendus rem beatae consequatur facere, in sequi nihil necessitatibus cupiditate esse animi corrupti aperiam ratione voluptates voluptatum laboriosam illo exercitationem, explicabo eaque. Reiciendis natus ab maiores, alias, necessitatibus incidunt aliquid tenetur, consequuntur eligendi debitis adipisci!</p>
+            <section class="intro">
+                
+                <h1>Andres Plana <span>Front End Developer</span></h1>
+                <a href="#contact">Get in touch</a>
+                
+            </section>
+            <!-- end of intro -->
             
-        </section>
-        <!-- end of about -->
-
-
-        <section class="projects">
-            <div class="projectContainer">
-                <img src="https://www.fillmurray.com/600/600" alt="TKTKTKTK">
-                <div class="textContainer">
-                    <h3 class="projectTitle">Awesome project</h3>
-                    <p class="projectDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsa! Illum tenetur et nesciunt possimus nisi, veritatis odit iusto necessitatibus!</p>
-                    <div class="buttonContainer">
-                        <a href="#">Live site</a>
-                        <a href="#">See the code</a>
+            <!-- start of about -->
+            <section id="about" class="aboutSection">
+                
+                <h2>Hello!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia assumenda repellendus rem beatae consequatur facere, in sequi nihil necessitatibus cupiditate esse animi corrupti aperiam ratione voluptates voluptatum laboriosam illo exercitationem, explicabo eaque. Reiciendis natus ab maiores, alias, necessitatibus incidunt aliquid tenetur, consequuntur eligendi debitis adipisci!</p>
+                
+            </section>
+            <!-- end of about -->
+            
+            
+            <section id="projects" class="projectsSection">
+                <div class="projectContainer">
+                    <img src="https://www.fillmurray.com/600/600" alt="TKTKTKTK">
+                    <div class="textContainer">
+                        <h3 class="projectTitle">Awesome project</h3>
+                        <p class="projectDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsa! Illum tenetur et nesciunt possimus nisi, veritatis odit iusto necessitatibus!</p>
+                        <div class="buttonContainer">
+                            <a href="#">Live site</a>
+                            <a href="#">See the code</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-
-        <section class="contact">
-
-        </section>
-
-    </main>
-</body>
-</html>
+            </section>
+            
+            
+            <section id="contact" class="contactSection">
+                
+                <h3>get in touch</h3>
+                
+                <p>Drop me a line or tktktkt for some coffee lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nulla!</p>
+                
+                <form class="formContainer">
+                    <label for="name" class="sr-only">Enter your name</label>
+                    <input type="text" name="name" placeholder="Name" class="formImput">
+                    <label for="email" class="sr-only">Enter your email address</label>
+                    <input type="text" name="email" placeholder="Email Address" class="formImput">
+                    <label for="comment" class="sr-only">Enter your comment</label>
+                    <input type="text" name="comment" placeholder="Comment" class="textImput">
+                    <button class="button">Submit</button>
+                </form>
+                
+            </section>
+            
+        </main>
+        
+        <footer>
+            <p>Somethinw witty © Andres Plana</p>
+        </footer>
+    </div>
+    </body>
+    </html>
