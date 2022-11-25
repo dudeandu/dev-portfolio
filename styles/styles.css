@@ -255,9 +255,13 @@ img {
   margin: 0 auto;
 }
 
+body {
+  font-family: "Lato", sans-serif;
+}
+
 h1 {
   color: #283618;
-  font-family: "Lato", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: 200;
   text-transform: uppercase;
 }
@@ -284,4 +288,11 @@ main {
   max-width: calc(100% - 350px);
   margin-left: 450px;
   margin-top: -85vh;
+}
+
+footer {
+  max-width: calc(100% - 350px);
+  margin-left: 450px;
+  margin-top: 120px;
+  border-top: 1px solid #283618;
 }

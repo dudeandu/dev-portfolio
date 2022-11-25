@@ -1,0 +1,9 @@
+@use './variables';
+@use './typography';
+
+footer {
+  max-width: calc( 100% - variables.$pusher );
+  margin-left: variables.$pusher + 100px;
+  margin-top: 120px;
+  border-top: 1px solid variables.$darkColor;
+}

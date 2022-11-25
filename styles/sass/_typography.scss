@@ -1,5 +1,9 @@
 @use './variables';
 
+body {
+  font-family: variables.$bodyFont;
+}
+
 h1 {
   color: variables.$darkColor;
   font-family: variables.$headerFont;
