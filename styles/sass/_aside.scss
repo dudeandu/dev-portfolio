@@ -3,10 +3,11 @@
 
 aside {
   padding: 20% 30px;
-  width: 350px;
+  // width: 350px;
   position: sticky;
   top: 0;
   margin: -20% 0;
+  float: left;
   .textContainer {
     text-align: right;
     width: variables.$pusher;
