@@ -1,8 +1,10 @@
 @use './variables';
 @use './typography';
 
-main {
+//aside section is in the 'aside.scss' partial
+
+section {
   max-width: calc( 100% - variables.$pusher );
   margin-left: variables.$pusher + 100px;
-  margin-top: -85vh;
+  // margin-top: -85vh;
 }

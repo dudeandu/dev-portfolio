@@ -2,14 +2,23 @@
 
 body {
   font-family: variables.$bodyFont;
+  font-size: 125%;
+  font-weight: 200;
 }
 
 h1 {
   color: variables.$darkColor;
   font-family: variables.$headerFont;
+  font-size: 3.225rem;
   font-weight: 200;
   text-transform: uppercase;
   span {
     display: block;
   }
+}
+
+h2 {
+  font-family: variables.$headerFont;
+  font-weight: 200;
+  text-transform: uppercase;
 }
