@@ -234,6 +234,10 @@ template {
   left: 0;
 }
 
+body {
+  background-color: #f5f4f1;
+}
+
 h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
@@ -324,6 +328,24 @@ section {
 
 section.contactSection {
   padding: 20% 0;
+}
+
+section.techStackSection .techList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+section.techStackSection .techList li {
+  width: 120px;
+  text-align: center;
+}
+section.techStackSection .techList i {
+  font-size: 72px;
+  color: #283618;
 }
 
 .projectsSection .projectContainer {
