@@ -324,6 +324,10 @@ section {
   max-width: calc(100% - 350px);
   margin-left: 450px;
   min-height: 60vh;
+  padding: 200px 0;
+}
+section:first-of-type {
+  padding-top: 0;
 }
 
 section.contactSection {
@@ -340,14 +344,25 @@ section.techStackSection .techList {
       justify-content: space-around;
 }
 section.techStackSection .techList li {
+  margin-top: 30px;
   width: 120px;
   text-align: center;
+}
+section.techStackSection .techList li span {
+  display: block;
 }
 section.techStackSection .techList i {
   font-size: 72px;
   color: #283618;
 }
+section.techStackSection .techList img {
+  height: 72px;
+  width: 100%;
+}
 
+.projectsSection h2 {
+  margin-bottom: 30px;
+}
 .projectsSection .projectContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -369,6 +384,9 @@ section.techStackSection .techList i {
 }
 .projectsSection img {
   max-width: 350px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 aside {

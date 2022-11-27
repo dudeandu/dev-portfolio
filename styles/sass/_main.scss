@@ -7,7 +7,10 @@ section {
   max-width: calc( 100% - variables.$pusher );
   margin-left: variables.$pusher + 100px;
   min-height: 60vh;
-  // margin-top: -85vh;
+  padding: 200px 0;
+  &:first-of-type {
+    padding-top: 0;
+  }
 }
 
 section.contactSection {
@@ -20,17 +23,28 @@ section.techStackSection {
     flex-wrap: wrap;
     justify-content: space-around;
     li {
+      margin-top: 30px;
       width: 120px;
       text-align: center;
+      span { 
+        display: block;
+      }
     }
     i {
       font-size: 72px;
       color: variables.$darkColor;
     }
+    img {
+      height: 72px;
+      width: 100%;
+    }
   }
 }
 
 .projectsSection {
+  h2 {
+    margin-bottom: 30px;
+  }
   .projectContainer{
     display: flex;
     margin: 0 0 200px;
@@ -50,5 +64,6 @@ section.techStackSection {
   }  
   img {
     max-width: variables.$pusher;
+    height: fit-content;
   }
 }
