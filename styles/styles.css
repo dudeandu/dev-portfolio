@@ -427,9 +427,7 @@ section.techStackSection .techList img {
 }
 .projectsSection img {
   max-width: 350px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: auto;
 }
 
 aside {
@@ -491,6 +489,7 @@ footer {
   }
   .projectsSection img {
     max-width: 100%;
+    height: auto;
   }
   .projectsSection .projectContainer {
     -ms-flex-wrap: wrap;

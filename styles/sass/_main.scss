@@ -65,6 +65,7 @@ section.techStackSection {
   }  
   img {
     max-width: variables.$pusher;
-    height: fit-content;
+    // height: fit-content;
+    height: auto;
   }
 }
