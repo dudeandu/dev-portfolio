@@ -1,6 +1,21 @@
 @use './variables';
 @use './typography';
 
+.gradient {
+  height: 20px;
+  display: none;
+}
+
+.gradientUp {
+  background: rgb(248,248,248);
+  background: linear-gradient(0deg, rgba(248,248,248,0) 17%, rgba(245,244,241,1) 85%);
+}
+
+.gradientDown {
+  background: rgb(248,248,248);
+  background: linear-gradient(180deg, rgba(248,248,248,0) 17%, rgba(245,244,241,1) 85%);
+}
+
 header {
   height: 100vh;
   max-width: calc( 100% - variables.$pusher );
@@ -20,8 +35,17 @@ header {
     width: 100%;
     ul {
       display: flex;
-      // width: 60%;
       justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .navGroup {
+      width: 58%;
+    }
+    .social {
+      display: flex;
+      justify-content: space-between;
+      max-width: 300px;
+      width: 35%;
     }
   }
 }

@@ -1,0 +1,152 @@
+@use './variables';
+@use './typography';
+
+@media (max-width: 1050px) {
+  header {
+    nav {
+      .navGroup {
+        width: 80%;
+        margin-bottom: 60px;
+      }
+      .social {
+        display: flex;
+        justify-content: space-between;
+        width:35%;
+        // min-width: 300px;
+        // max-width: variables.$pusher;
+      }
+    }
+  }
+  section {
+    max-width: 80%;
+  }
+  .projectsSection {
+    img {
+      max-width: 100%;
+    }
+    .projectContainer {
+      flex-wrap: wrap;
+      margin: 0 0 150px;
+      .textContainer {
+        padding: 30px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  header,
+  section {
+    max-width: calc( 100% - variables.$pusherMed );
+    margin-left: variables.$pusherMed + 100px;
+  }
+  
+  aside {
+    .textContainer {
+      text-align: right;
+      width: variables.$pusherMed;
+    } 
+  }
+}
+
+@media (max-width: 870px) {
+  header {
+    nav {
+      .navGroup {
+        width: 100%;
+      }
+      .social {
+        width:80%;
+        // max-width: variables.$pusher;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 750px) {
+  header,
+  footer,
+  section {
+    max-width: calc( 100% - variables.$pusherSmall );
+    margin-left: variables.$pusherSmall + 100px;
+  }
+  
+  aside {
+    .textContainer {
+      width: variables.$pusherSmall;
+    } 
+  }
+}
+
+@media (max-width: 600px) {
+  header,
+  footer {
+    max-width: 100%;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 520px) { 
+  .gradient {
+    display: block;
+  }
+
+  header {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    h1 {
+      background-color: variables.$lightColor;
+      padding: 0 10px 10px;
+      margin-bottom: 0;
+    }
+    nav {
+      position: absolute;
+      bottom: 0;
+      pointer-events: all;
+      ul {
+        background-color: variables.$lightColor;
+        justify-content: space-around;
+        bottom: 0;
+        margin: 0;
+        padding: 0 10px 5px;
+        
+      }
+      .navGroup {
+        border-top: 1px solid variables.$mainColor;
+        padding: 5px 0;
+        max-width: 100;
+        margin-bottom: 0;
+      }
+    }
+  }
+  aside {
+    display: none;
+  }
+  section {
+    max-width: calc( 100% - 10px );
+    margin-left: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &:first-of-type {
+      margin-top: 80vh;
+    }
+  }
+  .projectsSection {
+    .projectContainer {
+      margin: 0 0 100px;
+    }
+  }
+  footer {
+    margin: 0 0 100px 0;
+    text-align: center;
+    p { 
+      margin: 10px 0;
+    }
+  }
+}
