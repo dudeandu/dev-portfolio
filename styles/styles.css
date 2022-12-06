@@ -234,6 +234,10 @@ template {
   left: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f5f4f1;
 }
