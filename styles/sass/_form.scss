@@ -1,0 +1,30 @@
+@use './variables';
+@use './typography';
+
+input, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: variables.$lightColor;
+  border: 1px solid variables.$darkColor;
+  margin-bottom: 30px;
+  &:focus, &:focus-visible, &:active {
+    border: 2px solid variables.$mainColor;
+  }
+}
+
+form {
+  button {
+    padding: 10px 30px 8px;
+    text-transform: uppercase;
+    background-color: variables.$lightColor;
+    border-radius: 0;
+    border: 2px solid variables.$darkColor;
+    &:hover, &:focus {
+      border: 2px solid variables.$mainColor;
+      color: variables.$mainColor;
+
+    }
+  }
+}

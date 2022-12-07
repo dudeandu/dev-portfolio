@@ -487,6 +487,32 @@ aside .textContainer .social li {
   margin-left: 30px;
 }
 
+input, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f5f4f1;
+  border: 1px solid #283618;
+  margin-bottom: 30px;
+}
+input:focus, input:focus-visible, input:active, textarea:focus, textarea:focus-visible, textarea:active {
+  border: 2px solid #E88329;
+}
+
+form button {
+  padding: 10px 30px 8px;
+  text-transform: uppercase;
+  background-color: #f5f4f1;
+  border-radius: 0;
+  border: 2px solid #283618;
+}
+form button:hover, form button:focus {
+  border: 2px solid #E88329;
+  color: #E88329;
+}
+
 footer {
   max-width: calc(100% - 350px);
   margin-left: 450px;
